@@ -1,0 +1,38 @@
+@media only screen and (min-width: 940px) {
+    :root {
+        --smallest: 0.5rem;
+        --btw: 0.8rem;
+        --smaller: 0.8rem;
+        --small: 1rem;
+        --large: 5rem;
+        --mid-larger: 4rem;
+    }
+}
+@media only screen and (max-width: 939px) {
+    :root {
+        --smallest: 0.2rem;
+        --btw: 0.5rem;
+        --large: 5rem;
+        --smaller: 0.6rem;
+        --small: 0.7rem;
+        --mid-larger: 2.9rem;
+    }
+}
+@media only screen and (max-width: 550px) {
+    :root {
+        --smallest: 0.2rem;
+        --btw: 0.5rem;
+        --large: 5rem;
+        --smaller: 0.6rem;
+        --small: 0.7rem;
+        --mid-larger: 2.9rem;
+    }
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: url("../public/download.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
